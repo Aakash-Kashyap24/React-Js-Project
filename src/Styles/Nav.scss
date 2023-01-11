@@ -1,0 +1,46 @@
+@import 'color';
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+
+
+nav {
+    /* height: 100px; */
+    background: $first;
+    padding: 2rem 4rem;
+    color: $second;
+    position: sticky;
+    top: 0%;
+    z-index: 10;
+}
+
+nav>ul {
+    display: flex;
+    justify-content: space-between;
+
+    /* align-items: center; */
+}
+
+.nav-section {
+    width: 50%;
+    display: flex;
+    gap: 25px;
+
+    justify-content: flex-end;
+    align-items: center;
+}
+.logo{
+    margin-right: 50px;
+    justify-content: flex-start;
+}
+a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: $second;
+
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
